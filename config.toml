@@ -51,3 +51,18 @@ summaryLength = 30
   [params.logo]
       mobile = "/images/path.png"
       standard  = "/images/path.png"
+
+
+[params.giscus]
+repo = "SannaBerg/TheMind"
+repoID = "R_kgDOIjBm8Q"
+category = "Comments on Website"
+categoryID = "DIC_kwDOIjBm8c4CUQuz"
+mapping = "pathname"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "bottom"
+theme = "light"
+lang = "en"
+crossorigin="anonymous"
+loading = "lazy"
