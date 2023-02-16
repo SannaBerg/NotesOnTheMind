@@ -43,6 +43,7 @@
         </div>
         <div class="col-12 col-md-9">
           {{ block "main" . }}
+          {{ partial "giscus.html" . }}
           {{ end }}
         </div>
       </div>
@@ -51,8 +52,6 @@
     {{ block "main" . }}
     {{ end }}
     {{ end}}
-    {{ partial "giscus.html" . }}
-
   </div>
   {{ partial "sub-footer.html" . }}
 
