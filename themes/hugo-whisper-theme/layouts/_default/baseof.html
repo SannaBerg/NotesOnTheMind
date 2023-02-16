@@ -51,10 +51,9 @@
     {{ block "main" . }}
     {{ end }}
     {{ end}}
+    {{ partial "giscus.html" . }}
+
   </div>
-
-  {{ partial "giscus.html" . }}
-
   {{ partial "sub-footer.html" . }}
 
   {{ $scripts := resources.Get "js/scripts.js" }}
