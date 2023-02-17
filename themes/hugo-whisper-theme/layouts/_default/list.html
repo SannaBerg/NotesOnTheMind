@@ -8,11 +8,10 @@
 <h1 class="title">{{ .Title }}</h1>
 <div class="content">
   {{ .Content }}
-  {{ partial "giscus.html" . }}
 </div>
-
 {{ range.Pages }}
 {{ .Render "summary" }}
-{{ end }}
 
+{{ end }}
+{{ partial "giscus.html" . }}
 {{ end }}
